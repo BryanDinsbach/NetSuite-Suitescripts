@@ -27,7 +27,7 @@ function(record,log,email) {
     	var financeEmailOld = oldRecord.getValue({fieldId:'custentity_financeemails'});
     	var financeEmailNew = currentRecord.getValue({fieldId:'custentity_financeemails'});
     	
-    	
+    	system.out.println("HET WERK!!!!");
     	
     	/* Check if email has been changed */
     	if (financeEmailOld !== financeEmailNew){
